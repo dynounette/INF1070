@@ -10,7 +10,7 @@ Travail individuel.
 - Session    : Hiver 2023
 - Groupe     : 020
 - Enseignant : STIÉVENART, Quentin
-- Auteur     : Dyna Mehenni (MEHD84580003)
+- Auteur     : HIDE
 
 
 ## Solution de la mission M01
@@ -49,26 +49,26 @@ M01.c) Le résultat de cette commande liste tous les fichiers et dossiers qui co
 
 m02.a) 
 ```sh
-cp config-dist.php config-MEHD84580003.php
+cp config-dist.php config-mon code permanent.php
 ```
-Cette commande copie le contenu du fichier `config-dist.php` vers le dossier parent sous le nom de `config-MEHD84580003.php`
+Cette commande copie le contenu du fichier `config-dist.php` vers le dossier parent sous le nom de `config-mon code permanent.php`
 
 m02.b) J'ai utilisé la commande
 ```sh
-vim config-MEHD84580003.php
+vim config-mon code permanent.php
 ```
 pour editer certaines lignes du fichier voici le résultat:
 ```sh
-$CFG->dbname    = 'mehd84580003'; // database name, eg moodle
-$CFG->dbuser    = 'mehd84580003'; // your database username
-$CFG->dbpass    = 'mehd84580003'; // your database password
+$CFG->dbname    = 'mon code permanent'; // database name, eg moodle
+$CFG->dbuser    = 'mon code permanent'; // your database username
+$CFG->dbpass    = 'mon code permanent'; // your database password
 ``` 
 
 m02.c) 
 ```sh
-grep -i "mehd84580003" config-MEHD84580003.php
+grep -i "mon code permanent_minuscule" config-mon code permanent_majuscule.php
 ```
-La commande `grep` recherche toutes les lignes qui contiennent la chaîne de caractères `mehd84580003` dans le fichier `config-MEHD84580003.php`. 
+La commande `grep` recherche toutes les lignes qui contiennent la chaîne de caractères `mon code permanent_minuscule` dans le fichier `config-mon code permanent_majuscule.php`. 
 
 `-i` indique que la recherche doit être insensible à la casse.
 
@@ -79,7 +79,7 @@ La commande `grep` recherche toutes les lignes qui contiennent la chaîne de car
 
 ### Démarche
 ```sh
-ln -s config-MEHD84580003.php config.php
+ln -s config-mon code permanent_majuscule.php config.php
 ```
 Cette commande crée un lien symbolique nommé `config.php` dans le dossier racine du code source.
 
