@@ -8,7 +8,7 @@ Travail individuel.
 - Session    : Hiver 2023
 - Groupe     : `020`
 - Enseignant : `Quentin Stiévenart`
-- Auteur     : `Dyna Mehenni` (MEHD84580003)
+- Auteur     : `HIDE` (HIDE)
 
 
 ## Solution de la mission M01
@@ -82,23 +82,23 @@ M04.3 Je me suis connecté à la base de données avec le client MySQL avec comm
 M04.4 Lorsque j'ai rentrée les commandes suivantes :
 ```sh
 create database nextcloud;
-create user 'Dyna'@'%' identified by 'password';
-grant all privileges on nextcloud.* to 'Dyna'@'%';
+create user 'HIDE'@'%' identified by 'password';
+grant all privileges on nextcloud.* to 'HIDE'@'%';
 flush privileges;
 ```
-Les comamndes m'ont retournée : 
+Les commandes m'ont retournée : 
 ```sh
 Query OK, 0 rows affected (le millième de secondes dépendamment de chaque commande Ex: 0,006 sec). 
 ```
 Cette ligne signifie que la requête à été effectuée avec succès.
 
-M04.5 Le réustlat de la commande `show grants for 'nextclouduser'@'%';`, soit `show grants for 'Dyna'@'%';`  dans mon cas. La commande ma retournée :
+M04.5 Le réustlat de la commande `show grants for 'nextclouduser'@'%';`, soit `show grants for 'HIDE'@'%';`  dans mon cas. La commande ma retournée :
 ```sh
 +------------------------------------------------------------------------------------------------------+
-| Grants for Dyna@%                                                                                   |
+| Grants for HIDE@%                                                                                   |
 +------------------------------------------------------------------------------------------------------+
 | GRANT USAGE ON *.* TO `Dyna`@`%` IDENTIFIED BY PASSWORD '*2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19' |
-| GRANT ALL PRIVILEGES ON `nextcloud`.* TO `Dyna`@`%`                                                 |
+| GRANT ALL PRIVILEGES ON `nextcloud`.* TO `HIDE`@`%`                                                 |
 +------------------------------------------------------------------------------------------------------+
 2 rows in set (0,004 sec) 
 ```
