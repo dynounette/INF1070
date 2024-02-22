@@ -8,7 +8,7 @@ Travail individuel.
 - Session    : Hiver 2023
 - Groupe     : `020`
 - Enseignant : `Quentin Stiévenart`
-- Auteur     : `HIDE` (HIDE)
+- Auteur     : `HIDE`
 
 
 ## Solution de la mission M01
